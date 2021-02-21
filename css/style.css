@@ -313,6 +313,7 @@ a.active {
     position: absolute;
     border: 10px solid #425BB5;
     width: 450px;
+    min-width: 350px;
     height: 530px;
     top: 40px;
     left: 70px;
@@ -459,7 +460,7 @@ a.active {
     background: #f3f3f3
 }
 
-.portfolio .categories-grid span {
+.portfolio .categories-grid span{
     font-size: 30px;
     margin-bottom: 30px;
     display: inline-block;
@@ -529,7 +530,7 @@ a.active {
     font-weight: bold;
 }
 
-.portfolio_item .portfolio_item_hover .item_info span {
+.portfolio_item .portfolio_item_hover .item_info span{
     display: block;
     color: #fff;
     font-size: 18px;
@@ -540,7 +541,7 @@ a.active {
     opacity: 0;
 }
 
-.portfolio_item .portfolio_item_hover .item_info em {
+.portfolio_item .portfolio_item_hover .item_info em{
     font-style: normal;
     display: inline-block;
     background-color: #425BB5;
@@ -642,102 +643,26 @@ a.active {
     padding: 100px 0;
 }
 
-#contact-form input,
-#contact-form textarea {
-    height: 50px;
-    margin-bottom: 10px;
-    border-radius: 0;
-}
-
-#contact-form label {
-    display: block;
-    margin-bottom: .2em;
-    font-size: 13px;
-    line-height: 13px;
-    font-size: 1.3rem;
-    line-height: 1.3rem;
-    color: #000;
-}
-
-#contact-form label.error {
-    margin-top: 10px;
-    margin-bottom: 1em;
-    font-size: 12px;
-    line-height: 12px;
-    font-size: 1.2rem;
-    line-height: 1.2rem;
-    color: #D33E43;
-    margin-left: 10px
-}
-
-#contact-form input[type="text"].error,
-#contact-form input[type="password"].error,
-#contact-form input[type="date"].error,
-#contact-form input[type="datetime"].error,
-#contact-form input[type="datetime-local"].error,
-#contact-form input[type="month"].error,
-#contact-form input[type="week"].error,
-#contact-form input[type="email"].error,
-#contact-form input[type="number"].error,
-#contact-form input[type="search"].error,
-#contact-form input[type="tel"].error,
-#contact-form input[type="time"].error,
-#contact-form input[type="url"].error,
-#contact-form textarea.error {
-    border-color: #D33E43
-}
-
-textarea {
-    resize: none;
-}
-
 fieldset {
     border: 0px;
     margin: 0;
     padding: 0
 }
 
-.required {
-    color: #e9266d
+.flex {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#success,
-#error {
-    display: none
+.contact-block {
+    justify-content: space-between;
+    align-content: space-between; 
 }
 
-#success p,
-#error p {
-    display: block;
-}
-
-#success p {
-    color: #425BB5;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #425BB5;
-    margin-top: 10px;
-}
-
-#error p {
-    color: #D33E43;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    border: 2px solid #D33E43;
-    margin-top: 10px;
-}
-
-#submit {
-    background-color: #425BB5;
-    color: #fff;
-    padding: 10px 40px;
-    border-radius: 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-    width: 100%;
+.contact-block p{
+    justify-content: space-between;
+    align-content: space-between; 
+    margin-top: 25px
 }
 
 .social {
